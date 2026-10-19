@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Database and local state
+data/*
+!data/.gitkeep
+
+# Logs and local artifacts
+logs/
+*.log
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.db-shm
+*.db-wal
+*.tmp
+*.temp
+
+# OS/editor files
+.DS_Store
+Thumbs.db
